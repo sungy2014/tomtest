@@ -1,0 +1,1 @@
+{"jobID":"010f699e-6048-ad54-30e3-3754d1bf78b5","spec":{"type":"policy","cause":{"Message":"","User":"tom sun \u003c2597246924@qq.com\u003e"},"spec":{"tomtest-daily:deployment/jenkins-java-demo":{"add":{"automated":"true"},"remove":null}}},"result":null}
