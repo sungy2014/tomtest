@@ -1,3 +1,4 @@
+---
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
@@ -15,13 +16,12 @@ spec:
     spec:
       containers:
       - name: jenkins-java-demo
-        image: registry.cn-shenzhen.aliyuncs.com/tomtest/jenkins-java-demo:0.0.1
+        image: registry.cn-shenzhen.aliyuncs.com/tomtest/jenkins-java-demo:0.0.3
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
       imagePullSecrets:
       - name: registrykey
-
 ---
 apiVersion: v1
 kind: Service
