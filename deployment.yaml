@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: jenkins-java-demo
-        image: registry.cn-shenzhen.aliyuncs.com/tomtest/jenkins-java-demo:0.0.3
+        image: registry.cn-shenzhen.aliyuncs.com/tomtest/jenkins-java-demo:0.0.1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
